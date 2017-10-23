@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <title>Contact Page</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <h1>Contact Me</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contactPage.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div>
+<!--            <h1 class="header">Contact Me</h1>-->
+            <form>
+                <div>
+                    Name<br><input type="text" accept charset="UTF-8" autocomplete="on" name="contact_name">
+                </div>
+                
+                <div>
+                    Phone #<br><input type="text" accept charset="UTF-8" autocomplete="on" name="contact_phone">
+                </div>
+                <div>
+                    Email<br><input type="text" accept charset="UTF-8" autocomplete="on" name="contact_email">
+                </div>
+                <div>
+                    Subject<br><input type="text" name="contact_subject" accept charset="UTF-8" autocomplete="off" placeholder="info@sample.com">
+                </div>
+                <div>
+                    Message<br><textarea rows="4" cols="75" value="Type message here...">
+                    </textarea>
+                    <p><strong>Note:</strong> Please send a brief message less than 250 characters.</p>
+                </div>
+                <div>
+                <input type="checkbox" checked="checked" name="mailing_list" value="Yes"> Join Mailing List<br>    
+                </div>
+                <div>
+                    How did you hear about me?<br><select>
+                        <option value="family">Family</option>
+                        <option value="freien">Friend</option>
+                        <option value="search">Search</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="reset" value="reset">Reset</button>
+                    <button type="submit" value="Submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

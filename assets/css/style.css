@@ -1,0 +1,143 @@
+body{
+    background-color: pink;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-image: url(../img/IMG_7154c.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: left top;
+/*    background-attachment: fixed;*/
+    margin: 0px;
+    padding: 100px 0px 100px 150px;
+    text-align: center;
+    border-bottom: 5px solid lightblue;
+    position: relative;
+    display: block;
+/*    align-content: center;*/
+}
+
+header h1{
+    text-align: center;
+    font-size: 40px;
+    color: blueviolet;
+}
+
+nav {
+	text-align: center;
+	text-decoration: none;
+    padding: 0px 20px;
+	display: inline-block;
+	border-radius: 50px;
+	
+    
+}
+
+header a{
+	padding: 10px 20px;
+	text-decoration: none;
+	background:  radial-gradient(deeppink, lightblue);
+	border: 2px solid #505;
+	display: block;
+	border-radius: 20px;
+	text-align: center;
+}
+
+header a:hover {
+    background: violet;
+}
+
+header a:active {
+    background: lightblue;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0px;
+    text-align: center
+}
+
+nav>ul>li {
+	display: inline-block;
+	align: left;
+	width: 125px;
+}
+
+/*
+.News {
+    background-color: pink;
+    background-size: auto;
+    margin: 0px;
+    padding: 5px;
+}
+*/
+
+footer {
+    background: pink;
+    padding: 15px;
+    border-top: 5px solid lightblue;
+    position: relative;
+    text-align: center;
+}
+
+footer ul {
+	list-style: none;
+	padding: 10px;
+}
+
+footer>ul>li {
+	display: inline-block;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-envelope-o {
+  background: #000;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+#main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row;
+}
+
+#main > aside {
+    margin: 0px;
+    padding: 0px;
+    background: #pink;
+    flex: 1 6 10%;
+    order: 0;
+}
+
+#main > article {
+    margin: 0px;
+    padding: 0px;
+    flex: 3 1 90%;
+    order: 1;
+}
+
+/*Additional Styles for contactPage.html*/
