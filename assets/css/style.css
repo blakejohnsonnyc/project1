@@ -1,47 +1,47 @@
-body{
+body {
+    font-family: cursive;
     background-color: pink;
     margin: 0px;
     padding: 0px;
 }
+
 header {
     background-image: url(../img/IMG_7154c.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: left top;
-/*    background-attachment: fixed;*/
+    /*    background-attachment: fixed;*/
     margin: 0px;
     padding: 100px 0px 100px 150px;
     text-align: center;
     border-bottom: 5px solid lightblue;
     position: relative;
     display: block;
-/*    align-content: center;*/
+    /*    align-content: center;*/
 }
 
-header h1{
+header h1 {
     text-align: center;
     font-size: 40px;
     color: blueviolet;
 }
 
 nav {
-	text-align: center;
-	text-decoration: none;
+    text-align: center;
+    text-decoration: none;
     padding: 0px 20px;
-	display: inline-block;
-	border-radius: 50px;
-	
-    
+    display: inline-block;
+    border-radius: 50px;
 }
 
-header a{
-	padding: 10px 20px;
-	text-decoration: none;
-	background:  radial-gradient(deeppink, lightblue);
-	border: 2px solid #505;
-	display: block;
-	border-radius: 20px;
-	text-align: center;
+header a {
+    padding: 10px 20px;
+    text-decoration: none;
+    background: radial-gradient(deeppink, lightblue);
+    border: 2px solid #505;
+    display: block;
+    border-radius: 20px;
+    text-align: center;
 }
 
 header a:hover {
@@ -53,16 +53,17 @@ header a:active {
 }
 
 nav ul {
-	list-style: none;
-	padding: 0px;
+    list-style: none;
+    padding: 0px;
     text-align: center
 }
 
-nav>ul>li {
-	display: inline-block;
-	align: left;
-	width: 125px;
+nav > ul > li {
+    display: inline-block;
+    align: left;
+    width: 125px;
 }
+
 
 /*
 .News {
@@ -82,12 +83,12 @@ footer {
 }
 
 footer ul {
-	list-style: none;
-	padding: 10px;
+    list-style: none;
+    padding: 10px;
 }
 
-footer>ul>li {
-	display: inline-block;
+footer > ul > li {
+    display: inline-block;
 }
 
 .fa {
@@ -104,27 +105,35 @@ footer>ul>li {
 }
 
 .fa-envelope-o {
-  background: #000;
-  color: white;
+    background: #000;
+    color: white;
 }
 
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
+    background: #55ACEE;
+    color: white;
 }
 
 #main {
-    margin: 0;
+    margin: 0 auto;
+    max-width: 600px;
     padding: 0;
     display: flex;
     flex-flow: row;
 }
 
+#main img {
+    float: left;
+    vertical-align: middle;
+    margin: 0 0 10px 10px;
+}
+
+/*
 #main > aside {
     margin: 0px;
     padding: 0px;
@@ -132,12 +141,15 @@ footer>ul>li {
     flex: 1 6 10%;
     order: 0;
 }
+*/
 
 #main > article {
-    margin: 0px;
-    padding: 0px;
+    margin: 0px auto;
+    max-width: 600px;
+    padding: 10px 50px;
     flex: 3 1 90%;
     order: 1;
 }
+
 
 /*Additional Styles for contactPage.html*/
